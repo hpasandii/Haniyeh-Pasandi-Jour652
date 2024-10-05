@@ -1,0 +1,107 @@
+
+        /* Style for Haniyeh Pasandi (h1 tag) */
+        h1 {
+            font-size: 3em;
+            color: #33485e;
+        }
+/* Container styles */
+        #container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+/* Name (h1) styles */
+        #name {
+            border-bottom: 1px solid #33485e;
+            width: 60%;
+            min-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+/* Section header (h2) styles */
+        .sectionheader {
+            margin: 20px 0 10px 0;
+            padding: 5px 0 5px 10px;
+            width: 100%;
+            min-width: 300px;
+        }
+
+        /* Job title (h3) styles */
+        .jobtitle {
+            /* Keeping existing styling */
+        }
+/* Organization (h4) styles */
+        .organization {
+            font-size: 1.2em;
+        }
+
+        /* Date (h5) styles */
+        .date {
+            margin: 2px 0 0 0;
+        }
+
+        /* Paragraph description */
+        .description {
+            margin: 10px 0;
+        }
+
+
+/* Menu (ul contact information) styles */
+        ul.menu {
+            margin: 10px 0 20px 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Menu list items */
+        ul.menu li {
+            display: inline;
+            padding: 0 20px;
+        }
+
+        /* Education list (id degrees) */
+        #degrees {
+            margin-top: 5px;
+        }
+
+        /* Skills list (id do) */
+        #do {
+            margin-top: 5px;
+        }
+/* Title (strong) styles */
+        #title {
+            font-weight: 600;
+            text-align: center;
+            margin: 20px 0 0 0;
+        }
+
+        /* Headshot image */
+        #headshot {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #33485e;
+        }
+
+        /* Headshot container */
+        #headshot-container {
+            text-align: center;
+        }
+/* link styles */
+        a:link {
+            font-weight: 600;
+            color: #0bc5f4;
+        }
+
+        a:hover {
+            color: #33485e;
+        }
+
+        a:visited {
+            color: #6e38c7;
+        }
+    </style>
+</head>
+
