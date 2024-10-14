@@ -1,0 +1,101 @@
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Masthead */
+.masthead {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Headline */
+.headline {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Byline */
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Body text */
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #444444;
+    margin: 0 20px 20px;
+}
+
+/* Pull quote */
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 20px;
+    padding: 20px;
+    border-left: 4px solid #003366;
+    background-color: #f9f9f9;
+}
+
+/* Image styles */
+.article-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+}
+
+.caption {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Read more section */
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #003366;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
