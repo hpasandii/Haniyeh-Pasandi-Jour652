@@ -1,0 +1,52 @@
+/* Font imports */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1.headline {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+h2.subheading {
+    font-family: 'Merriweather', serif;
+    font-size: 1.75rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+p.byline {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #777;
+}
+
+p.paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.figure-caption {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    color: #555;
+    border-left: 4px solid #333;
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
