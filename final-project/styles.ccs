@@ -7,20 +7,32 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #333;
-  color: white;
+/* Magazine Name */
+.magazine-name {
+  font-family: 'Zilla Slab', serif;
   text-align: center;
-  padding: 20px;
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
 }
 
-footer {
-  background-color: #333;
-  color: white;
+/* Title and Byline */
+.title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-weight: bold;
   text-align: center;
-  padding: 10px;
-  font-size: 14px;
+  margin-top: 30px;
+  color: #333;
+}
+
+.byline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Section Styles */
@@ -73,6 +85,16 @@ img {
   height: auto;
 }
 
+/* Video Title */
+.video-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
 /* Pullquote Styles */
 .pullquote {
   font-size: 24px;
@@ -89,10 +111,10 @@ img {
   margin-right: auto;
 }
 
-/* Byline Styles */
-.byline {
-  font-size: 16px;
-  color: black;
-  margin-bottom: 20px;
+footer {
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 10px;
+  font-size: 14px;
 }
