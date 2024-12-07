@@ -73,7 +73,7 @@ iframe {
 }
 
 .image-container img {
-  width: 80%; /* 20% smaller */
+  width: 70%; /* 30% smaller */
   margin: 0 auto;
   display: block;
 }
@@ -96,4 +96,13 @@ footer {
   text-align: center;
   padding: 10px;
   font-size: 14px;
+}
+
+.youtube-container {
+  text-align: center; /* Center the YouTube video */
+  margin-top: 30px;
+}
+
+.iframe-container iframe {
+  height: 450px; /* Adjusted height of second infographic */
 }
