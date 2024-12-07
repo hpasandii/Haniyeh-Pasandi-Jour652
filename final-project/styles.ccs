@@ -1,5 +1,6 @@
+/* General Body and Layout */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
@@ -14,6 +15,15 @@ header {
   font-size: 24px;
 }
 
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Section Styles */
 section {
   padding: 30px;
   margin: 20px;
@@ -27,15 +37,10 @@ h2 {
   color: #333;
   margin-bottom: 20px;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold; /* Make the title bold */
 }
 
-iframe {
-  border-radius: 8px;
-  display: block;
-  margin: 0 auto;
-}
-
+/* Image and Text Layout */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -47,37 +52,47 @@ iframe {
   margin-bottom: 30px;
 }
 
-.image-container {
+img {
+  width: 70%;
+  height: auto;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Video Container */
+.video-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.image-container img {
-  width: 70%;  /* Adjust to 30% smaller */
+.video-container iframe {
+  max-width: 100%;
+  height: auto;
 }
 
+/* Pullquote Styles */
 .pullquote {
   font-size: 24px;
-  font-weight: bold;
-  border: 2px solid #333;
-  border-radius: 12px;
-  padding: 20px;
-  background-color: #f2f2f2;
+  font-style: italic;
+  color: #333;
   margin: 30px 0;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #f5f5f5;
   text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-}
-
+/* Byline Styles */
 .byline {
   font-size: 16px;
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
