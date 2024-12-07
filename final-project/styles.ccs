@@ -64,18 +64,6 @@ h2 {
 iframe {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.image-container {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.image-container img {
-  width: 70%; /* 30% smaller */
-  margin: 0 auto;
-  display: block;
 }
 
 .pullquote {
@@ -99,10 +87,22 @@ footer {
 }
 
 .youtube-container {
-  text-align: center; /* Center the YouTube video */
+  text-align: center;
   margin-top: 30px;
 }
 
-.iframe-container iframe {
-  height: 450px; /* Adjusted height of second infographic */
+.youtube-container iframe {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iframe-container {
+    width: 100%;
+  }
 }
