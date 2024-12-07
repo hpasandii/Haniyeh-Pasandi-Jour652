@@ -1,41 +1,27 @@
-/* General Body and Layout */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
   color: #333;
 }
 
-/* Magazine Name */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
 .magazine-name {
   font-family: 'Zilla Slab', serif;
-  text-align: center;
   font-size: 36px;
-  font-weight: bold;
-  margin-top: 20px;
-  color: #333;
-}
-
-/* Title and Byline */
-.title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 28px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
-  margin-top: 30px;
-  color: #333;
+  margin-top: 10px;
 }
 
-.byline {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: black;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Section Styles */
 section {
   padding: 30px;
   margin: 20px;
@@ -44,77 +30,8 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  font-size: 22px;
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
   color: #333;
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: bold; /* Make the title bold */
-}
-
-/* Image and Text Layout */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.iframe-container {
-  width: 48%;
-  margin-bottom: 30px;
-}
-
-img {
-  width: 80%;
-  height: auto;
-  margin: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Video Container */
-.video-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.video-container iframe {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Video Title */
-.video-title {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  margin-top: 10px;
-  font-weight: bold;
-  color: #333;
-}
-
-/* Pullquote Styles */
-.pullquote {
-  font-size: 24px;
-  font-style: italic;
-  color: #333;
-  margin: 30px 0;
-  padding: 15px;
-  border: 2px solid #ccc;
-  border-radius: 15px;
-  background-color: #f5f5f5;
-  text-align: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-}
+  text-align: center
