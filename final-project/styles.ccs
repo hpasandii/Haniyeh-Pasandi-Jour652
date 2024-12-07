@@ -65,7 +65,7 @@ h2 {
 }
 
 img {
-  width: 70%;
+  width: 80%;
   height: auto;
   margin: 10px;
   display: block;
@@ -83,6 +83,16 @@ img {
 .video-container iframe {
   max-width: 100%;
   height: auto;
+}
+
+/* Video Title */
+.video-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
 }
 
 /* Pullquote Styles */
@@ -108,5 +118,3 @@ footer {
   padding: 10px;
   font-size: 14px;
 }
-
-
