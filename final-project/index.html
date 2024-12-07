@@ -4,85 +4,194 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Fearless Reporting of Elahe Mohammadi</title>
-
-  <!-- Google Fonts for Title and Magazine Name -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zilla+Slab:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
   <style>
-    /* Add the CSS code from below here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+    }
+
+    .magazine-name {
+      font-family: 'Zilla Slab', serif;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 30px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 28px;
+      color: #333;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .byline {
+      text-align: center;
+      font-size: 18px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .image-container,
+    .iframe-container {
+      width: 45%;
+      margin-bottom: 30px;
+    }
+
+    iframe {
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .pullquote {
+      font-size: 22px;
+      font-style: italic;
+      color: #555;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .youtube-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .youtube-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .image-container img {
+      width: 100%;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Magazine Name -->
-  <div class="magazine-name">
-    Capital News Service
-  </div>
+  <header>
+    <div class="magazine-name">Capital News Service</div>
+  </header>
 
   <section>
-    <!-- Article Title -->
-    <div class="title">
-      The Fearless Reporting of Elahe Mohammadi
-    </div>
-
-    <!-- Byline -->
-    <div class="byline">
-      By Tyrah Burris  -  February 15, 2024
-    </div>
-
-    <!-- First Paragraph -->
-    <p>Elahe Mohammadi wanted to write about the funeral for a young woman who died in police custody and to interview the mourning family as they buried their loved one. Instead, the newspaper reporter for Ham Mihan in Tehran was arrested, according to the Committee to Protect Journalists, an international press advocacy organization.</p>
+    <h1>The Fearless Reporting of Elahe Mohammadi</h1>
+    <div class="byline">By Tyrah Burris - February 15, 2024</div>
 
     <!-- Image 1 -->
-    <img src="image1.jpg" alt="Image 1 Description">
+    <div class="image-container">
+      <img src="image1.jpg" alt="Elahe Mohammadi Image 1">
+    </div>
 
-    <!-- Second Paragraph -->
+    <p>Elahe Mohammadi wanted to write about the funeral for a young woman who died in police custody and to interview the mourning family as they buried their loved one. Instead, the newspaper reporter for Ham Mihan in Tehran was arrested, according to the Committee to Protect Journalists, an international press advocacy organization.</p>
+
     <p>After her arrest on Sept. 29, 2022, Iranian authorities broke into her house, searched it for two hours and confiscated her laptop, books, phone, and press card, her lawyer Mohammad-Ali Kamfirouzi explained in a tweet posted on X, previously known as Twitter.</p>
 
-    <!-- Image 2 -->
-    <img src="image2.jpg" alt="Image 2 Description">
-
-    <!-- Remaining Paragraphs -->
     <p>Mohammadi, 36, was charged with acting against Iran’s national security and for making propaganda against the government. She has been in prison for over a year.</p>
-    <p>On Oct. 22 Mohammadi was sentenced to 12 years in prison, six for allegedly collaborating with the U.S. government, five for acting against national security and one for “propaganda against the Islamic government.”</p>
+
+    <p>On Oct. 22 Mohammadi was sentenced to 12 years in prison, six for allegedly collaborating with the U.S. government, five for acting against national security, and one for “propaganda against the Islamic government.”</p>
+
     <p>On Jan. 14, Mohammadi was granted temporary release on bail from Evin Prison, according to the United States Commission on International Religious Freedom.</p>
 
-    <!-- Pullquote -->
+    <h2>Infographics and Video</h2>
+
+    <!-- Infographic 1 -->
+    <div class="container">
+      <div class="iframe-container">
+        <iframe title="Arrest Statistics of Journalists in Iran Since the Mahsa Amini Movement"
+                aria-label="Column Chart"
+                id="datawrapper-chart-VjVJZ"
+                src="https://datawrapper.dwcdn.net/VjVJZ/2/"
+                scrolling="no"
+                frameborder="0"
+                style="width: 100%; height: 414px; border: none;"
+                data-external="1"></iframe>
+      </div>
+
+      <!-- Infographic 2 -->
+      <div class="iframe-container">
+        <iframe title="Regional Intensity of Protests in Iran Following Mahsa Amini's Death"
+                aria-label="Map"
+                id="datawrapper-chart-UQlJp"
+                src="https://datawrapper.dwcdn.net/UQlJp/2/"
+                scrolling="no"
+                frameborder="0"
+                style="width: 100%; height: 785px; border: none;"
+                data-external="1"></iframe>
+      </div>
+    </div>
+
+    <!-- Image 2 -->
+    <div class="image-container">
+      <img src="image2.jpg" alt="Elahe Mohammadi Image 2">
+    </div>
+
+    <p>Mohammadi had traveled to the city of Saqqez in the north-western Kurdish part of Iran to cover the funeral of the 22-year-old Mahsa Amini, who died in the custody of the morality police on Sept. 16, three days after they detained her for not wearing her hijab correctly, according to numerous news reports at the time.</p>
+
+    <p>Iranian authorities later said that an investigation found she had died of “multiple organ failure caused by cerebral hypoxia, or lack of oxygen to the brain” which it attributed to “underlying diseases.”</p>
+
+    <p>After Amini’s death, Iranian women began a series of protests dubbed “Women, Life, Freedom Movement” against restrictions enforced against them by the strict Islamic government.</p>
+
     <div class="pullquote">
       “Journalism in Iran is really an act of courage,” Jasmin Ramsey, the Deputy Director of the Center for Human Rights in Iran in New York City, told Capital News Service in an interview.
     </div>
 
-    <p>Mohammadi had traveled to the city of Saqqez in the north-western Kurdish part of Iran to cover the funeral of the 22-year-old Mahsa Amini, who died in the custody of the morality police on Sept. 16, three days after they detained her for not wearing her hijab correctly, according to numerous news reports at the time.</p>
-    
-    <!-- Infographics -->
-    <div class="container">
-      <div class="iframe-container">
-        <iframe title="Arrest Statistics of Journalists in Iran Since the Mahsa Amini Movement" 
-                src="https://datawrapper.dwcdn.net/VjVJZ/2/"
-                frameborder="0" 
-                style="width: 100%; height: 414px; border: none;"></iframe>
-      </div>
+    <p>In October 2022, the Iranian Ministry of Intelligence and the Islamic Revolutionary Guard Corps released a statement blaming the United States for the month-long protests in Iran. It said Mohammadi received U.S. training in overthrowing the Iranian government.</p>
 
-      <div class="iframe-container">
-        <iframe title="Regional Intensity of Protests in Iran Following Mahsa Amini's Death"
-                src="https://datawrapper.dwcdn.net/UQlJp/2/"
-                frameborder="0" 
-                style="width: 100%; height: 785px; border: none;"></iframe>
-      </div>
+    <div class="youtube-container">
+      <div class="youtube-title">2023 John Aubuchon Press Freedom Award</div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/n065ZE5Go9E?si=lTApjBwL118Vu5Z3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
-    <!-- YouTube Video -->
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/n065ZE5Go9E?si=lTApjBwL118Vu5Z3" 
-              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen></iframe>
-      <div class="video-title">2023 John Aubuchon Press Freedom Award</div>
-    </div>
-    
-    <p>After Amini’s death, Iranian women began a series of protests dubbed “Women, Life, Freedom Movement” against restrictions enforced against them by the strict Islamic government.</p>
-
-    <!-- More paragraphs... -->
   </section>
 
   <footer>
@@ -91,3 +200,4 @@
 
 </body>
 </html>
+
