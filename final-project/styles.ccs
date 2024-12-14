@@ -35,3 +35,6 @@ h1 {
   font-size: 28px;
   color: #333;
   text-align: center
+.image-container {
+  text-align: center; /* Centers the image container */
+  margin-bottom: 30px;
